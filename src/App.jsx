@@ -10,7 +10,8 @@ import Footer from "./components/ui/footer";
 function App() {
   return (
     <>
-      <div className="Wrapper h-screen w-screen overflow-y-scroll">
+      <div className="Wrapper min-h-screen w-full bg-gradient-to-b from-[#edf2fb] via-[#c1d3fe] to-[#abc4ff] overflow-scroll
+      ">
         <Navbar id="Navbar"></Navbar>
         <Home id="home"></Home>
         <Skills id="skills"></Skills>
