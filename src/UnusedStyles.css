@@ -1,0 +1,18 @@
+html {
+  --primary-light-color: #f7f3f9;
+  --primary-dark-color: #280753;
+  -primary-text-color: #333333; /* Dark gray text for normal content */
+  --secondary-text-color: #666666; /* Medium gray for less important content */
+  --accent-text-color: #3b2d4d; /* Dark purple for links or emphasis */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  --nav-background-color: #f7f3f9;
+}
+html.dark {
+  --primary-light-color: #3b2d4d;
+  --primary-dark-color: #f7f3f9;
+  --primary-text-color: #f7f3f9; /* Light text for normal content */
+  --secondary-text-color: #e0e0e0; /* Light gray for less important content */
+  --accent-text-color: #f7f3f9; /* Light color for links or emphasis */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  --nav-background-color: #1b101f;
+}
