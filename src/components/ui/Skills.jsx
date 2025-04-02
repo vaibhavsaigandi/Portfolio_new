@@ -8,6 +8,7 @@ const Skills = ({ id }) => {
     >
       <h1>Skills</h1>
       <JavascriptOriginal />
+      <JavascriptOriginal />
     </div>
   );
 };
