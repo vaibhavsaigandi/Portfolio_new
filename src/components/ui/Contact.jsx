@@ -40,7 +40,7 @@ import React from "react";
 
 const Contact = ({ id }) => {
   const githubLink = "https://github.com/vaibhavsaigandi";
-  const linkedinLink = "https://www.linkedin.com/in/vaibhavsaigandi/";
+  const linkedinLink = "https://www.linkedin.com/in/saivaibavgandi/";
   const mailId = "gandisaivaibhav@gmail.com";
 
   return (
