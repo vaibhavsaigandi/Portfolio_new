@@ -5,7 +5,7 @@ import Skills from "./components/ui/Skills";
 import Experience from "./components/ui/Experience";
 import Projects from "./components/ui/Projects";
 import Contact from "./components/ui/Contact";
-import Footer from "./components/ui/footer";
+import Footer from "./components/ui/Footer";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
