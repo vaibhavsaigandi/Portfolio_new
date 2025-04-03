@@ -9,46 +9,39 @@ import ExpressOriginal from "react-devicons/express/original";
 import GitOriginalWordmark from "react-devicons/git/original-wordmark";
 import MongodbOriginalWordmark from "react-devicons/mongodb/original-wordmark";
 import PythonOriginalWordmark from "react-devicons/python/original-wordmark";
+import SkillsData from "./skillsData";
 
 const Skills = ({ id }) => {
   return (
     <div
       id={id}
-      className="h-full w-full sm:w-11/12 md:w-3/4 mx-auto px-2 sm:px-4 md:px-6 max-w-12xl flex flex-col justify-center items-center"
+      className="h-full w-full sm:w-11/12 md:w-3/4 mx-auto px-2 sm:px-4 md:px-6 max-w-12xl 
+      flex flex-col justify-center items-center"
     >
-      <h1>Skills</h1>
-      <div className="flex flex-wrap max-w-4xl mx-auto justify-center items-center w-full h-auto ">
-        {/* Each skill takes exactly 25% width to force 4 per row */}
+      <h1 className="text-2xl mb-3 md:text-3xl">Skills</h1>
+      <div className="flex flex-wrap max-w-4xl mx-auto justify-center items-center w-full h-auto mb-5">
         <div className="w-1/4 p-4 flex justify-center hover:animate-bounce [animation-duration:2s]">
-          <JavascriptOriginal className="!h-20 !w-20" />
+          <JavascriptOriginal className="!h-30 !w-30" />
+        </div>
+
+        <div className="w-1/4 p-4 flex justify-center hover:animate-bounce [animation-duration:2s]">
+          <ReactOriginal className="!h-30 !w-30" />
         </div>
         <div className="w-1/4 p-4 flex justify-center">
-          <Css3OriginalWordmark className="!h-20 !w-20" />
+          <NodejsOriginalWordmark className="!h-30 !w-30 hover:animate-bounce [animation-duration:2s]" />
         </div>
-        <div className="w-1/4 p-4 flex justify-center">
-          <Html5Original className="!h-20 !w-20" />
-        </div>
-        <div className="w-1/4 p-4 flex justify-center">
-          <ReactOriginal className="!h-20 !w-20" />
-        </div>
-        <div className="w-1/4 p-4 flex justify-center">
-          <NodejsOriginalWordmark className="!h-20 !w-20" />
-        </div>
-        <div className="w-1/4 p-4 flex justify-center">
-          <ExpressOriginal className="!h-20 !w-20" />
-        </div>
-        <div className="w-1/4 p-4 flex justify-center">
-          <AngularjsOriginalWordmark className="!h-20 !w-20" />
-        </div>
-        <div className="w-1/4 p-4 flex justify-center">
-          <GitOriginalWordmark className="!h-20 !w-20" />
-        </div>
-        <div className="w-1/4 p-4 flex justify-center">
-          <MongodbOriginalWordmark className="!h-20 !w-20" />
-        </div>
-        <div className="w-1/4 p-4 flex justify-center">
-          <PythonOriginalWordmark className="!h-20 !w-20" />
-        </div>
+      </div>
+      <div className="flex flex-wrap md:flex-row justify-center items-center gap-4 w-full h-auto">
+        {SkillsData.map((skill, index) => {
+          return (
+            <span
+              className="font-[500] flex-col justify-center items-center p-3 inline-flex rounded-lg bg-indigo-300 border-1 border-white shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out"
+              key={index}
+            >
+              <h4 key={index}>{skill}</h4>
+            </span>
+          );
+        })}
       </div>
     </div>
   );

@@ -179,7 +179,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0 z-10  justify-between items-center bg-white shadow-md text-gray-800  px-4 py-2 w-full    mx-auto hidden md:flex">
+    <div className="sticky top-0 z-10  justify-between items-center bg-[#f9fcff] shadow-md text-gray-800  px-4 py-2 w-full    mx-auto hidden md:flex">
       <div
         className="flex justify-center items-center text-2xl p-3
         font-bold"
@@ -189,7 +189,7 @@ const Navbar = () => {
       <nav className="flex gap-6 p-3 text-lg">
         <button
           onClick={() => scrollToSection("home")}
-          className="flex items-center gap-2 hover:text-blue-600 px-3 py-2 transition-colors"
+          className="flex items-center gap-2 hover:text-indigo-400 px-3 py-2 transition-colors"
         >
           <div className="w-5 h-5">
             <svg
@@ -210,7 +210,7 @@ const Navbar = () => {
         </button>
         <button
           onClick={() => scrollToSection("skills")}
-          className="flex items-center gap-2 hover:text-blue-600 px-3 py-2 transition-colors"
+          className="flex items-center gap-2  hover:text-indigo-400 px-3 py-2 transition-colors"
         >
           <div className="w-5 h-5">
             <svg
@@ -231,7 +231,7 @@ const Navbar = () => {
         </button>
         <button
           onClick={() => scrollToSection("experience")}
-          className="flex items-center gap-2 hover:text-blue-600 px-3 py-2 transition-colors"
+          className="flex items-center gap-2 hover:text-indigo-400 px-3 py-2 transition-colors"
         >
           <div className="w-5 h-5">
             <svg
@@ -253,7 +253,7 @@ const Navbar = () => {
         </button>
         <button
           onClick={() => scrollToSection("projects")}
-          className="flex items-center gap-2 hover:text-blue-600 px-3 py-2 transition-colors"
+          className="flex items-center gap-2  hover:text-indigo-400 px-3 py-2 transition-colors"
         >
           <div className="w-5 h-5">
             <svg
@@ -265,15 +265,14 @@ const Navbar = () => {
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
-              <path d="M3 7l9 6l9 -6"></path>
+              <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
             </svg>
           </div>
           <span>Projects</span>
         </button>
         <button
           onClick={() => scrollToSection("contact")}
-          className="flex items-center gap-2 hover:text-blue-600 px-3 py-2 transition-colors"
+          className="flex items-center gap-2  hover:text-indigo-400 px-3 py-2 transition-colors"
         >
           <div className="w-5 h-5">
             <svg
