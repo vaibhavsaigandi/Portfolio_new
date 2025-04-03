@@ -179,7 +179,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0 z-10  justify-between items-center bg-[#f9fcff] shadow-md text-gray-800  px-4 py-2 w-full    mx-auto hidden md:flex">
+    <div className="sticky top-0 z-50  justify-between items-center bg-[#f9fcff] shadow-md text-gray-800 px-4 py-2 w-full mx-auto hidden md:flex">
       <div
         className="flex justify-center items-center text-2xl p-3
         font-bold"
