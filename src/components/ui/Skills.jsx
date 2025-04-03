@@ -14,21 +14,23 @@ import SkillsData from "./skillsData";
 const Skills = ({ id }) => {
   return (
     <div
+      data-aos="fade-in"
+      data-aos-duration="500"
       id={id}
-      className="h-full w-full sm:w-11/12 md:w-3/4 mx-auto px-2 sm:px-4 md:px-6 max-w-12xl 
+      className="h-screen w-full sm:w-11/12 md:w-3/4 mx-auto px-2 sm:px-4 md:px-6 max-w-12xl 
       flex flex-col justify-center items-center"
     >
-      <h1 className="text-2xl mb-3 md:text-3xl">Skills</h1>
+      <h1 className="text-2xl mb-3 md:text-3xl font-semibold">Skills</h1>
       <div className="flex flex-wrap max-w-4xl mx-auto justify-center items-center w-full h-auto mb-5">
-        <div className="w-1/4 p-4 flex justify-center hover:animate-bounce [animation-duration:2s]">
+        <div className="w-1/4 p-4 flex justify-center transition-all duration-300 ease-in-out hover:scale-125 ">
           <JavascriptOriginal className="!h-30 !w-30" />
         </div>
 
-        <div className="w-1/4 p-4 flex justify-center hover:animate-bounce [animation-duration:2s]">
+        <div className="w-1/4 p-4 flex justify-center transition-all duration-300 ease-in-out hover:scale-125 ">
           <ReactOriginal className="!h-30 !w-30" />
         </div>
         <div className="w-1/4 p-4 flex justify-center">
-          <NodejsOriginalWordmark className="!h-30 !w-30 hover:animate-bounce [animation-duration:2s]" />
+          <NodejsOriginalWordmark className="!h-30 !w-30 transition-all duration-300 ease-in-out hover:scale-125" />
         </div>
       </div>
       <div className="flex flex-wrap md:flex-row justify-center items-center gap-4 w-full h-auto">
