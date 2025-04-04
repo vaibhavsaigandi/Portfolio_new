@@ -26,10 +26,14 @@ const Home = ({ id }) => {
       <div className="container">
         <div className="flex flex-col items-center">
           {/* Placeholder for profile image */}
-          <div className="size-[100px] bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-white text-5xl font-bold mb-4">
+          {/* <div className="size-[100px] bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-white text-5xl font-bold mb-4">
             VG
-          </div>
-
+          </div> */}
+          <img
+            src="https://neelmishra.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmemoji-computer.0c295dc9.png&w=640&q=75"
+            alt="software engineer"
+            className=" w-32 h-32"
+          />
           <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded">
             <div className="bg-green-500 size-2.5 rounded-full relative">
               <div className="bg-green-500 absolute inset-0 size-2.5 rounded-full animate-ping"></div>
