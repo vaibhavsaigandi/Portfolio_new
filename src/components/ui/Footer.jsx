@@ -10,7 +10,7 @@ const Footer = () => {
         <p className="text-gray-500 text-xs mt-2">
           This website is built using React, Next.js, and Tailwind CSS.
           <span role="img" aria-label="love">
-            ❤️❤️
+            ❤️handcrafted with love
           </span>
         </p>
       </div>
