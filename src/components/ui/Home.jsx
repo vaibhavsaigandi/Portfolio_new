@@ -46,7 +46,7 @@ const Home = ({ id }) => {
 
         <div className="max-w-lg mx-auto text-black">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Fullstack Developer
+            Hi! I'm Vaibhav, a Full Stack Developer
           </h1>
           <h2 className="font-serif text-2xl md:text-3xl text-center mt-8 tracking-wide">
             "Think🤔 Code🧑‍💻 Ship🚀"
